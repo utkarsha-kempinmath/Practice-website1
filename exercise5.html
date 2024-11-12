@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>exercise5</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            position: sticky;
+            top: 0;
+            z-index: 1;
+        }
+
+        nav {
+            height: 75px;
+            background-color: pink;
+            border: 2px solid black;
+        }
+        ul {
+            display: flex;
+        }
+        ul li {
+            list-style-type: none;
+            padding: 30px;
+            font-size: 30px;
+        
+        }
+        li:hover {
+            cursor: pointer;
+            color: lightblue;
+        }
+        .boxes {
+
+            height: 100vh;
+            background-color: rgb(134, 66, 223);
+            position: relative;
+        }
+
+        .box1 {
+            display: inline-flex;
+            height: 80vh;
+            width: 40vw;
+            border: 3px solid black;
+            border-radius: 30px;
+            background-color: rgb(230, 207, 212);
+            position: relative;
+            margin: 55px;
+
+        }
+        p {
+            font-size:  large;
+        }
+        .box2 {
+            display: inline-flex;
+            height: 80vh;
+            width: 40vw;
+            border: 3px solid black;
+            border-radius: 30px;
+            background-color: rgb(230, 207, 212);
+            position: relative;
+            bottom: 103vh;
+            left: 45vw;
+            margin: 55px;
+        }
+
+        .box3 {
+            display: inline-flex;
+            height: 30vh;
+            width: 80vw;
+            border: 2px solid black;
+            border-radius: 55px;
+            position: relative;
+            left: 55px;
+            top: 50px;
+            text-align: center;
+            font-size: 70px;
+        }
+
+        .logo {
+            float: right;
+            position: fixed;
+            z-index: 10;
+            top: 90vh;
+            right: 2vh;
+        }
+        footer {
+            height: 70px;
+            background-color: aquamarine;
+            position: relative;
+            top: 60vh;
+        }
+        .end {
+            font-size: 60px;
+            text-align: center;
+            border: 2px solid black;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Games</li>
+                <li>Study</li>
+                <li>Exams</li>
+                <li>Results</li>
+                <li>Help</li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="boxes">
+            <div class="box1">
+                <p> &nbsp; &nbsp;Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti magnam sed aut neque velit, ipsam accusantium provident quisquam beatae fugit, quia tempora. Expedita, officia illo ex mollitia natus, tempora, ab harum veritatis nisi iste delectus suscipit. Veritatis expedita illum maiores necessitatibus sequi quasi quibusdam mollitia ab fugit optio enim blanditiis, possimus numquam autem explicabo officiis! Aliquid, in! Suscipit, a obcaecati! Debitis tempore ullam reprehenderit rem necessitatibus facilis harum quam maiores eveniet assumenda corrupti suscipit mollitia natus eligendi nemo aspernatur ea velit asperiores, esse accusantium rerum dignissimos nostrum molestiae ipsa. Porro deserunt veniam odio incidunt totam. Ipsam rem quod iste eligendi.
+                    </p>
+                </div>
+            <div class="box2">
+                <p> &nbsp; &nbsp;Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti magnam sed aut neque velit, ipsam accusantium provident quisquam beatae fugit, quia tempora. Expedita, officia illo ex mollitia natus, tempora, ab harum veritatis nisi iste delectus suscipit. Veritatis expedita illum maiores necessitatibus sequi quasi quibusdam mollitia ab fugit optio enim blanditiis, possimus numquam autem explicabo officiis! Aliquid, in! Suscipit, a obcaecati! Debitis tempore ullam reprehenderit rem necessitatibus facilis harum quam maiores eveniet assumenda corrupti suscipit mollitia natus eligendi nemo aspernatur ea velit asperiores, esse accusantium rerum dignissimos nostrum molestiae ipsa. Porro deserunt veniam odio incidunt totam. Ipsam rem quod iste eligendi.
+                </p>
+            </div>
+        </div>
+        <div>
+            <div class="box3"> Welcome to Sigma Web Dev Course</div>
+        </div>
+    </main>
+    <div class="logo">
+        <img src="https://thumbs.dreamstime.com/b/gradient-fire-phoenix-bird-simple-logo-design-black-bird-simple-logo-design-simple-gradient-fire-phoenix-bird-logo-158339374.jpg"
+            height="50px" width="50px" alt="logo">
+    </div>
+    <footer>
+       <p class="end"> All rights reserved</p>
+    </footer>
+</body>
+
+</html>
